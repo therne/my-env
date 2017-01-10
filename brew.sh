@@ -2,5 +2,6 @@
 echo Installing Homebrew...
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew update
-echo Installing required packages...
-brew install wget thefuck python3 scala groovy tmux erlang
+
+echo Installing command line tools
+brew install wget thefuck tmux vim
